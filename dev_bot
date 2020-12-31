@@ -1,0 +1,8 @@
+import os
+import shutil
+source= "speack_bot.py"
+target = "speack_bot.py"
+shutil.copy(source, target)
+first_speak = input()
+if first_speak == "bonjour":
+    print(bonjour_area)
